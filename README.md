@@ -1,4 +1,3 @@
-# GettingAndCleaningData_Project
 Getting and Cleaning Data Course - Coursera 
 Course Project
 -------------------------------------------
