@@ -32,7 +32,7 @@ rm(train_data,test_data)
 
 # Extracts only the measurements on the mean and standard deviation
 features_ls <- fread("UCI HAR Dataset/features.txt")
-Mean_STD_Index <- grep(".*mean.*|.*std.*",features_ls$V2) + 2
+Mean_STD_Index <- grep("[Mm]ean|[Ss]td",features_ls$V2) + 2
 data_selected <- select(data,c(1,2,Mean_STD_Index))
 rm(data)
 
