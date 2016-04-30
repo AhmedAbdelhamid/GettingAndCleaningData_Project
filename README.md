@@ -1,11 +1,12 @@
 Getting and Cleaning Data Course - Coursera 
+-------------------------------------------
 Course Project
 -------------------------------------------
 In this project we prepared tidy data that can be used for later analysis using R language
 You can find the original data here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-Now lets see how the "run_analysis.R" scrip work : 
+Now lets see how the "run_analysis.R" script works : 
 
 First, we download the original data and unzip it.
 Second, we the read the training & test sets and merge thier columns then merge both of them to one data set
