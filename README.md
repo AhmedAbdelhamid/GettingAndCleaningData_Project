@@ -15,7 +15,7 @@ then, we extract only the measurements of the selected features
 then, we read the activity labels and convert "subject","activity" columns to factors
 then, we appropriately labels the data set with descriptive variable names
 then, we create tidy data set with the average of each variable for each activity and each subject.
-Finally, Save the tidy data set to "tidydata.csv" file.
+Finally, Save the tidy data set to "tidydata.txt" file.
 
 
 

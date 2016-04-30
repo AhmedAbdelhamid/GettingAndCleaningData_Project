@@ -57,7 +57,7 @@ data_tidy <- dcast(data_molten,subject + activity ~ variable,mean)
 rm(data_selected,data_molten)
 
 # write the tidy data set to "tidy.csv" file
-write.csv(data_tidy,"tidydata.csv",row.names = F)
+write.table(data_tidy,"tidydata.txt",row.names = F)
 
 
 
